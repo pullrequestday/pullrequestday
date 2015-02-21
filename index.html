@@ -4,20 +4,50 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<p>I tweeted an idea about a hack day that only produces pull requests:</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<blockquote class="twitter-tweet" lang="en"><p>Idea: a hack day who&#39;s only output is pull requests to existing projects.</p>&mdash; Sym Roe (@symroe) <a href="https://twitter.com/symroe/status/568782434009010176">February 20, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<p>A lot of people seemed to like this idea, so I might try to make it happen.</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p>I don't have a date or venue yet, but if you are interested in taking part in any way, fill out the form below and I'll keep you updated.</p>
+
+
+
+
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+    <form action="//github.us8.list-manage.com/subscribe/post?u=aeea66014d6442edad784f461&amp;id=fe288474d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+        </label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+
+        <label for="mce-LNAME">Your name  <span class="asterisk">*</span>
+        </label>
+        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+
+
+        <strong>How would you like to be involved? </strong>
+        <label for="mce-group[16009]-16009-0"><input type="checkbox" value="1" name="group[16009][1]" id="mce-group[16009]-16009-0"> I would like to create pull requests</label>
+        <label for="mce-group[16009]-16009-1"><input type="checkbox" value="2" name="group[16009][2]" id="mce-group[16009]-16009-1"> I have a project that would like to receive pull requests</label>
+
+
+
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_aeea66014d6442edad784f461_fe288474d6" tabindex="-1" value=""></div>
+
+        <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Sign up</button>
+    </form>
+</div>
+<!--End mc_embed_signup-->
+
+
+
+
 
 </div>

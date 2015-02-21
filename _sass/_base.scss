@@ -202,3 +202,32 @@ pre {
         }
     }
 }
+
+
+form {
+    label, strong {
+        display:block;
+        clear:both;
+        float:left;
+    }
+    input, button {
+        padding:1em;
+        margin:1em;
+        width:80%;
+        max-width:50em;
+        clear:both;
+        float:left;
+
+        &[type=checkbox] {
+            padding:0em;
+            margin:0em;
+            width:2em;
+//            max-width:0;
+        }
+    }
+    button {
+        background-color:#EEE;
+        border:1px solid #AAA;
+    }
+
+}
