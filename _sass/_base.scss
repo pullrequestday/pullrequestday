@@ -1,6 +1,9 @@
 /**
  * Reset some basic elements
  */
+
+$mobile-break: 45em;
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -229,5 +232,35 @@ form {
         background-color:#EEE;
         border:1px solid #AAA;
     }
+
+}
+
+h1 {
+    margin-top:0.5em;
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    text-align:center;
+    @media screen and (min-width: $mobile-break) {
+        text-align:left;
+    }
+    a {
+        color:#000;
+        &:visited {
+            color:#000;
+        }
+    }
+    .mega-octicon {
+        font-size:40px;
+        text-align:center;
+        display: block;
+        margin-right:0.5em;
+
+        @media screen and (min-width: $mobile-break) {
+            display: inline;
+        }
+
+}
 
 }
