@@ -2,59 +2,120 @@
 layout: default
 ---
 
-<div class="home">
+<div class="ui inverted vertical masthead center aligned segment">
 
-  <p>Pull Request Hack Day is a hackday who&#39;s only output is pull requests to existing projects.</p>
-
-  <p>It's happening on Saturday the 27th of Februrary 2016. <br />(Which just happens to be international Pull Request day.)</p>
-
-  <p>We're going to be running a hack day physically located in Birmingham England, but we're hopeful that people can find a way to participate from anywhere!</p>
-
-  <p>We've not released tickets yet, but if you are interested in participating, then join our mailing list below </p>
-
-  <!-- Begin MailChimp Signup Form -->
-  <div id="mc_embed_signup">
-    <form action="//github.us8.list-manage.com/subscribe/post?u=aeea66014d6442edad784f461&amp;id=fe288474d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-      </label>
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-
-      <label for="mce-LNAME">Your name  <span class="asterisk">*</span>
-      </label>
-      <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-
-
-      <strong>How would you like to be involved? </strong>
-      <label for="mce-group[16009]-16009-0"><input type="checkbox" value="1" name="group[16009][1]" id="mce-group[16009]-16009-0"> I would like to create pull requests</label>
-      <label for="mce-group[16009]-16009-1"><input type="checkbox" value="2" name="group[16009][2]" id="mce-group[16009]-16009-1"> I have a project that would like to receive pull requests</label>
-
-
-
-      <div class="response" id="mce-error-response" style="display:none"></div>
-      <div class="response" id="mce-success-response" style="display:none"></div>
-
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;"><input type="text" name="b_aeea66014d6442edad784f461_fe288474d6" tabindex="-1" value=""></div>
-
-      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Sign up</button>
-    </form>
+  <div class="ui container">
+    <div class="ui large secondary inverted pointing menu">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+      </a>
+      <a class="active item">Pull Request Day</a>
+      <a href="/about/" class="item">About</a>
+      <a href="/pledge/" class="item">Pledge</a>
+      <a class="item" href="http://pullrequesthackday.org" target="_blank" >Pull Request Hackday</a>
+      <!-- <div class="right item"> -->
+      <!--   <a class="ui inverted button">Log in</a> -->
+      <!--   <a class="ui inverted button">Sign Up</a> -->
+      <!-- </div> -->
+    </div>
   </div>
 
-  <!--End mc_embed_signup-->
-
-<div style="clear: both; margin-bottom: 120px;"></div>
-
-<div class="">
-  <h2>
-    How can you help ?
-  </h2>
-  <ul>
-    <li>By coming to the event, or by filing a pull request on 27th Feb</li>
-    <li>By making easy starter issues for your open source project</li>
-    <li>By sponsoring us</li>
-  </ul>
-</div>
-
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      One million pull requests In one day
+    </h1>
+    <h2>International Pull Request Day: February 27th, 2016</h2>
+    <a href="/pledge/" class="ui huge green button">Take the pledge <i class="right arrow icon"></i></a>
+  </div>
 
 </div>
 
+<div class="ui vertical stripe segment">
+  <div class="ui middle aligned stackable grid container">
+    <div class="row">
+      <div class="eight wide column">
+        <h3 class="ui header">
+          A day to give something back
+        </h3>
+        <p>
+          Open Source projects make our lives better every day, but often we don't take the time
+          to contribute back to them. So let's do that - and do it together.
+        </p>
+        <h3 class="ui header">It's time to get involved</h3>
+        <p>
+          Are you just starting out on your journey as an Open Source contributor ? Make your first
+          pull request with us on Pull Request Day - with people around to help you out.
+        </p>
+        <p>
+          Have a project you've been meaning to contribute to? Make this the day you start. Write some
+          docs, fix a bug, add taht feature - save the date and get involved.
+        </p>
+      </div>
+      <div class="six wide right floated column">
+        <img src="{{ "/images/pull.request.logo.png" | prepend: site.baseurl }}" class="ui large bordered rounded image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui vertical stripe quote segment">
+  <div class="ui equal width stackable internally celled grid">
+    <div class="center aligned row">
+      <div class="column">
+        <h3>"Finally, an idea I can get behind."</h3>
+        <p>
+          <img src="https://pbs.twimg.com/profile_images/461533981805002752/r73owPuS_bigger.jpeg" class="ui avatar image"> <b>David Miller</b> Professional Pull Request Reviewer-Merger
+        </p>
+      </div>
+      <div class="column">
+        <h3>"This should totally be a thing."</h3>
+        <p>
+          <img src="https://pbs.twimg.com/profile_images/590123309473206272/oyrzs7PJ_bigger.png" class="ui avatar image"> <b>James Smith</b> Pull Requester for good
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui vertical stripe segment">
+  <div class="ui text container cta">
+    <h2 class="ui header">What can you do?</h2>
+  </div>
+  <div class="ui text container">
+    <h3 class="ui header">Take the pledge</h3>
+    <p>
+      Pledge to make at least one Pull Request to a project on Pull Request Day.
+    </p>
+    <a class="ui huge green button" href="/pledge/">Take The Pledge <i class="right arrow icon"></i></a>
+    
+    <h4 class="ui horizontal header divider">
+      #
+    </h4>
+
+    <h3 class="ui header">Go to a Hack Day</h3>
+    <p>
+      Go to Pull Request Hack Day and collaborate to create pull requests to existing projects
+    </p>
+    <a class="ui huge green button" target="http://pullrequesthackday.org" target="_blank">Pull Request Hack Day<i class="right arrow icon"></i></a>
+
+    <h4 class="ui horizontal header divider">
+      #
+    </h4>
+
+    <h3 class="ui header">Make your projects friendlier</h3>
+    <p>
+      Do you maintain an Open Source project? There are lots of things you can do to make your project friendlier to new contributors.
+      Add developer documentation, mark specific issues as suitable for newcomers, and much more.
+    </p>
+
+    <h4 class="ui horizontal header divider">
+      #
+    </h4>
+    
+    <h3 class="ui header">Tell all your friends about Pull Request Day</h3>
+    <p>
+      Think this is a good idea ? Then tell everyone you know about it, and get them to join us on Pull Request Day.
+    </p>    
+    
+  </div>
+</div>

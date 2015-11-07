@@ -1,0 +1,130 @@
+---
+layout: default
+---
+<div class="ui inverted vertical masthead center aligned segment">
+  <div class="ui container">
+    <div class="ui large secondary inverted pointing menu">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+      </a>
+      <a class="item">Pull Request Day</a>
+      <a class="item">About</a>
+      <a class="active item">Pledge</a>
+      <a class="item" href="http://pullrequesthackday.org" target="_blank" >Pull Request Hackday</a>
+    </div>
+  </div>
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      We, the undersigned, pledge to make <br />at least one pull request on 27th February 2016.
+    </h1>
+  </div>
+</div>
+
+<div class="ui vertical stripe segment">
+  <div class="ui middle aligned stackable grid container">
+    <div class="row">
+      <div class="eight wide column">
+        <h3 class="ui header">
+          How to pledge:
+        </h3>
+        <div class="ui big ordered list">
+          <div class="item">
+            Copy the block of HTML to the right.
+          </div>
+          <div class="item">
+            In your favourite text editor, add your own details to replace the shouty bits.
+          </div>
+          <div class="item">
+            Edit this page on github, and add your pledge above the comment: <br />
+            &lt;-- INSERT YOUR PLEDGE IMMEDIATELY ABOVE THIS COMMENT --&gt;
+          </div>
+          <div class="item">
+            Create a Pull Request to add your pledge
+          </div>
+          <div class="item">
+            There is no step five.
+          </div>
+        </div>
+      </div>
+      <div class="six wide right floated column">
+        <div class="ui bordered raised segment">
+        <pre>
+
+&lt;div class="ui card"&gt;
+  &lt;div class="content"&gt;
+    &lt;img class="right floated mini ui image" 
+            src="YOUR PROFILE PHOTO"&gt;
+    &lt;div class="header"&gt;
+      YOUR NAME
+    &lt;/div&gt;
+    &lt;div class="description"&gt;
+      YOUR 140 CHAR BIO
+    &lt;/div&gt;
+    &lt;div class="extra content"&gt;
+      &lt;p&gt;
+        &lt;a target="_blank" 
+              href="http://twitter.com/YOUR TWITTER USERNAME"&gt;
+          &lt;i class="twitter icon"&gt;&lt;/i&gt;
+          @YOUR TWITTER USERNAME
+        &lt;/a&gt;
+        &lt;br /&gt;
+        &lt;a target="_blank" 
+              href="http://github.com/YOUR GITHUB USERNAME"&gt;
+          &lt;i class="github icon"&gt;&lt;/i&gt;
+          @YOUR GITHUB USERNAME
+        &lt;/a&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt; &lt;!-- End of content --&gt;
+&lt;/div&gt; &lt;!-- End of card --&gt;
+        </pre>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui inverted vertical half masthead center aligned segment">
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      Current Pledges:
+    </h1>
+  </div>
+</div>
+
+<div class="ui raised segment">
+  <div class="ui four cards">
+
+    <div class="ui card">
+      <div class="content">
+        <img class="right floated mini ui image" src="https://pbs.twimg.com/profile_images/461533981805002752/r73owPuS_bigger.jpeg">
+        <div class="header">
+          David Miller
+        </div>
+        <div class="description">
+          Human, frequently fascinated. <br />I make health-based pull requests with @ohcuk.
+        </div>
+        <div class="extra content">
+          <p>
+            <a target="_blank" href="http://twitter.com/thatdavidmiller">
+              <i class="twitter icon"></i>
+              @thatdavidmiller
+            </a>
+            <br />
+            <a target="_blank" href="http://github.com/davidmiller">
+              <i class="github icon"></i>
+              @davidmiller
+            </a>
+          </p>
+        </div>
+      </div> <!-- End of content -->
+    </div> <!-- End of card -->
+
+
+    <!-- ATTENTION PLEDGE MAKERS:  -->
+    <!-- INSERT YOUR PLEDGE IMMEDIATELY ABOVE THIS COMMENT -->
+
+  </div>
+
+</div> <!-- Segment -->
